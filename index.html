@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assests/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>Form Validation</title>
+    <script src="./assests/app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Create Account</h2>
+      </div>
+      <form class="form">
+        <div class="form-control">
+          <label class="username">Username</label>
+          <input type="text" id="input" placeholder="user"/>
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>error</small>
+        </div>
+        <div class="form-control">
+          <label class="username">Email</label>
+          <input type="email" id="email" placeholder="user33@gmail.com"/>
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>error</small>
+        </div>
+        <div class="form-control">
+          <label class="username">Password</label>
+          <input type="password" id="password" placeholder="password"/>
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>error</small>
+        </div>
+        <div class="form-control">
+          <label class="username">Enter Password Again</label>
+          <input type="password" id="password_again" placeholder="password"/>
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>error</small>
+        </div>
+        <button>submit</button>
+      </form>
+    </div>
+  </body>
+</html>
